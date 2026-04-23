@@ -6,22 +6,27 @@ body{
     border: solid;
     display: flex;
     height: 450px;
-    gap:20px;
+    gap:30px;
     justify-content: space-around;
+
 }
 .contenedor div{
     border: solid;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 .parte1{
     background: orange;
+    align-self: flex-end;
     
 }
 .parte2{
+    flex-grow: 2;
     background: green;
     align-self: flex-start;
+    width: 500px;
 }
 .parte3{
     background: blue;
+    align-self: flex-end;
 }
