@@ -1,0 +1,27 @@
+body{
+    background: #4cbbe7;
+}
+.contenedor{
+    align-items: center;
+    border: solid;
+    display: flex;
+    height: 450px;
+    gap:20px;
+    justify-content: space-around;
+}
+.contenedor div{
+    border: solid;
+    height: 200px;
+    width: 200px;
+}
+.parte1{
+    background: orange;
+    
+}
+.parte2{
+    background: green;
+    align-self: flex-start;
+}
+.parte3{
+    background: blue;
+}
