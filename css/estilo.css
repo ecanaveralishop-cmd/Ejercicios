@@ -15,6 +15,7 @@ body{
    display: flex;
    justify-content: space-between;
    height: 110px;
+   gap: 700px;
 }
 /*.contenedor div{
     border: solid;
@@ -22,6 +23,7 @@ body{
     width: 150px; 
 }*/
 .parte1{
+    width: 300px;
     border: solid;
     background: orange;
     
@@ -35,6 +37,7 @@ body{
   border: 5px solid black;
 }
 .parte3{
+    width: 250px;
     border: solid;
     background: blue;
     
