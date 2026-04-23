@@ -3,30 +3,39 @@ body{
 }
 .contenedor{
     align-items: center;
+    flex-direction: column;
     border: solid;
     display: flex;
-    height: 450px;
+    height: 400px;
     gap:30px;
     justify-content: space-around;
 
 }
-.contenedor div{
+.contenedor2{
+   display: flex;
+   justify-content: space-between;
+   height: 110px;
+}
+/*.contenedor div{
     border: solid;
     height: 150px;
-    width: 150px;
-}
+    width: 150px; 
+}*/
 .parte1{
+    border: solid;
     background: orange;
-    align-self: flex-end;
+    
     
 }
 .parte2{
-    flex-grow: 2;
-    background: green;
-    align-self: flex-start;
-    width: 500px;
+  background-color: green;
+  justify-content: space-between;
+  width: 90%;
+  height: 80px;
+  border: 5px solid black;
 }
 .parte3{
+    border: solid;
     background: blue;
-    align-self: flex-end;
+    
 }
